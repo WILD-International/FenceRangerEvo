@@ -2529,7 +2529,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:AO3400A"
+		(symbol "Transistor_FET:2N7002"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -2546,7 +2546,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "AO3400A"
+			(property "Value" "2N7002"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -2566,7 +2566,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
 				(at 5.08 -3.81 0)
 				(effects
 					(font
@@ -2576,7 +2576,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2585,7 +2585,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "N-Channel MOSFET"
+			(property "ki_keywords" "N-Channel Switching MOSFET"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2603,7 +2603,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AO3400A_0_1"
+			(symbol "2N7002_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -2770,7 +2770,7 @@
 					)
 				)
 			)
-			(symbol "AO3400A_1_1"
+			(symbol "2N7002_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -6191,7 +6191,7 @@
 		(lib_id "Graphic:Logo_Open_Hardware_Small")
 		(at 276.86 173.99 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
@@ -6234,15 +6234,6 @@
 			)
 		)
 		(property "Description" "Open Hardware logo, small"
-			(at 276.86 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 276.86 173.99 0)
 			(effects
 				(font
@@ -6485,90 +6476,6 @@
 			(project ""
 				(path "/9381eb55-020b-4d27-a5c1-f9ded2453184"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:AO3400A")
-		(at 226.06 50.8 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3a5ac46e-3f75-48f6-bf61-e398e0c0f3f4")
-		(property "Reference" "Q2"
-			(at 219.71 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 219.71 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 220.98 52.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 220.98 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 226.06 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C20917"
-			(at 216.154 54.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7ba851cf-b840-40ea-a7c4-ee4ba8f4fcba")
-		)
-		(pin "1"
-			(uuid "7d21d545-1025-4559-bcbe-b010ff57d2a8")
-		)
-		(pin "3"
-			(uuid "e2e5215d-4bda-4869-ad9e-230586922a9a")
-		)
-		(instances
-			(project ""
-				(path "/9381eb55-020b-4d27-a5c1-f9ded2453184"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -8336,6 +8243,90 @@
 			(project "FenceRangerEvo"
 				(path "/9381eb55-020b-4d27-a5c1-f9ded2453184"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 226.06 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c582923d-0d96-44f7-a428-8ef06e5186b7")
+		(property "Reference" "Q2"
+			(at 219.71 52.0701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 219.71 49.5301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 220.98 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 220.98 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 226.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8545"
+			(at 216.662 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "9d1de470-557a-4969-8706-6cb3f418147b")
+		)
+		(pin "1"
+			(uuid "73599339-1e04-42be-ace5-033bd435a6f5")
+		)
+		(pin "2"
+			(uuid "4ad230cf-4543-4ed2-a739-f7d5ff017256")
+		)
+		(instances
+			(project ""
+				(path "/9381eb55-020b-4d27-a5c1-f9ded2453184"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
