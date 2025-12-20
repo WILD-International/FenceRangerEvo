@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "FenceRangerEvoSymbols")(type "KiCad")(uri "${KIPRJMOD}/FenceRangerEvoSymbols.kicad_sym")(options "")(descr ""))
+)
