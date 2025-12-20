@@ -3489,6 +3489,17 @@
 		)
 		(uuid "ee75f9d5-2421-435e-99cd-6e02b461e47b")
 	)
+	(text "TODO: need manual\nplacement now of pin\nheaders for JLC"
+		(exclude_from_sim no)
+		(at 132.08 106.172 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fd97667f-5e11-4082-a509-4e23b456f7c7")
+	)
 	(junction
 		(at 194.31 63.5)
 		(diameter 0)
@@ -9324,7 +9335,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e9800c9e-0bde-4d43-ba9f-02e430b781cb")
 		(property "Reference" "U2"
 			(at 139.7 45.72 0)
@@ -9367,6 +9377,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C22373904"
+			(at 139.7 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "18"
