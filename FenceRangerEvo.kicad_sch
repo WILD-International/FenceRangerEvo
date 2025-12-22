@@ -3467,6 +3467,17 @@
 		)
 		(uuid "6ed04739-fb7f-4114-a77a-50dfbf0457dc")
 	)
+	(text "Resistors placed manually\n(not jlcpcb)"
+		(exclude_from_sim no)
+		(at 58.674 36.576 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "94ff7cf2-d16e-4c45-8b65-a31c52df9ec9")
+	)
 	(text "B"
 		(exclude_from_sim no)
 		(at 233.426 138.43 0)
