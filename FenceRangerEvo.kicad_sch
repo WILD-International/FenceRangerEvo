@@ -7514,8 +7514,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
+		(dnp no)
 		(uuid "78016044-4d88-4c6e-a39e-3659f943e6c1")
 		(property "Reference" "R1"
 			(at 36.83 19.05 90)
@@ -7558,6 +7557,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C1364802"
+			(at 36.83 27.686 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8808,8 +8815,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
+		(dnp no)
 		(uuid "cfbb3cc6-a88f-4575-b23f-708686e920a2")
 		(property "Reference" "R2"
 			(at 57.15 19.05 90)
@@ -8852,6 +8858,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C1365464"
+			(at 57.15 27.686 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9094,8 +9108,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
+		(dnp no)
 		(uuid "d88bf08c-4b09-42c1-ad68-9db26eccb59e")
 		(property "Reference" "R4"
 			(at 67.31 19.05 90)
@@ -9138,6 +9151,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C1364802"
+			(at 67.31 27.686 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
