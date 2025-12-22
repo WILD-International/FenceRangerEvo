@@ -7,7 +7,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "d140467f-5876-4579-a097-3716a5f5819c")
+		(uuid "87d72acb-2d46-4875-960c-59f6aa2cea60")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "22cd3a38-e8ad-4690-9971-31f7572d0a1a")
+		(uuid "6e281035-d2ff-4e30-bbec-0f71eab3d7e9")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d62a2f17-0600-4d3d-8e76-32973ecc4795")
+		(uuid "bc8945f8-1fcb-4ba4-9388-9e6ca2fa91fc")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9616e607-a8b4-45ff-8ead-64f23ca21da7")
+		(uuid "a9a7c348-b249-45f2-993c-ee7f2a8ed121")
 		(effects
 			(font
 				(size 1 1)
@@ -53,7 +53,19 @@
 			)
 		)
 	)
-	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(property "FT Origin" "Anchor"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "57e7688e-2f07-42b5-abf5-2dba3764d3ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr through_hole board_only)
 	(fp_line
 		(start -21.65 -9.1)
 		(end -21.65 9.1)
