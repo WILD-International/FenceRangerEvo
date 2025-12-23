@@ -3530,6 +3530,17 @@
 		)
 		(uuid "d4aa54f9-5273-46fa-9231-902e2bac634b")
 	)
+	(text "output = -input\nprobably to make it work if connected in reverse"
+		(exclude_from_sim no)
+		(at 52.578 99.822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d571ac4e-21a0-4e09-8321-43e761efe9bc")
+	)
 	(text "Changed the GS resistor\nfrom 100k to 1M\nto reduce current"
 		(exclude_from_sim no)
 		(at 195.58 26.924 0)
@@ -8860,7 +8871,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1365464"
+		(property "LCSC" "C1365187"
 			(at 57.15 27.686 90)
 			(effects
 				(font
