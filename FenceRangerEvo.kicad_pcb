@@ -2136,6 +2136,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8e8f917-23b3-4e07-9720-518c3a6ce096")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/846233cb-582e-497a-ac67-5e41678f23b6")
 		(sheetname "/")
@@ -13048,6 +13061,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C22775"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f385e057-5547-412e-978b-9b90ead41910")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/94c46ee5-537e-47b3-bcf4-ffadb37783aa")
 		(sheetname "/")
@@ -16861,6 +16887,18 @@
 				)
 			)
 		)
+		(property "FT Origin" "Anchor"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c53b0b87-6792-4bf6-8f66-b66ef8daf96a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
 		(property "LCSC" "C5290177"
 			(at 0 0 270)
 			(unlocked yes)
@@ -16886,7 +16924,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "26e2a050-19f6-42f6-936b-47ebb5b66ea5")
+			(uuid "fe36b25d-80ab-4482-bbd5-0cb48e2036e5")
 		)
 		(fp_line
 			(start 21.65 9.1)
@@ -16896,7 +16934,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "c32cd4a4-02c5-48ea-b009-01eea5e3f848")
+			(uuid "33a393af-dbcf-484f-b53e-3ea716c195ab")
 		)
 		(fp_line
 			(start -21.65 -9.1)
@@ -16906,7 +16944,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "b94cf1e1-d827-4086-a36a-e8e1729a881f")
+			(uuid "ea4c3276-3c70-497b-bfc5-e03dbd58e9c9")
 		)
 		(fp_line
 			(start -20.65 -9.1)
@@ -16916,7 +16954,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "0f8082c1-0efe-49d8-b255-479eaf3214fc")
+			(uuid "6c032c95-f41a-40f3-93fb-902ff9011c89")
 		)
 		(fp_line
 			(start 21.65 -9.1)
@@ -16926,7 +16964,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "e6afbb3f-0dbd-4460-b184-7c2332c4a25a")
+			(uuid "b874cb10-f9d9-4de8-885f-83aa8a1cdc5d")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 270)
@@ -16945,7 +16983,7 @@
 			(size 3 3)
 			(drill 2)
 			(layers "*.Mask")
-			(uuid "489781f7-11d1-4040-8fd5-168c895a7d54")
+			(uuid "524179b6-061a-4faa-b90d-bb5116af9a4e")
 		)
 		(pad "1" thru_hole circle
 			(at -18.75 0 270)

@@ -6650,15 +6650,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 276.86 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project ""
 				(path "/9381eb55-020b-4d27-a5c1-f9ded2453184"
@@ -8109,7 +8100,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "846233cb-582e-497a-ac67-5e41678f23b6")
 		(property "Reference" "R12"
 			(at 245.11 50.7999 0)
@@ -8154,6 +8144,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 240.538 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8408,7 +8406,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "94c46ee5-537e-47b3-bcf4-ffadb37783aa")
 		(property "Reference" "R13"
 			(at 199.39 31.7499 0)
@@ -8453,6 +8450,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C22775"
+			(at 194.818 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
