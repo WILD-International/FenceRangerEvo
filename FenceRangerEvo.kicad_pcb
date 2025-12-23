@@ -16099,6 +16099,19 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "90"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89271d13-38ee-427f-a1f8-3e2635089830")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/4867e5cc-ff8c-4737-a1e5-d3adb88d30b5")
 		(sheetname "/")
