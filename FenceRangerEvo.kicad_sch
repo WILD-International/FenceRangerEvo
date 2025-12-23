@@ -3679,6 +3679,17 @@
 		)
 		(uuid "3331b3ed-b1ba-45e6-aaca-bc21b13e0bfe")
 	)
+	(text "might need to attach charger (USB/solar)\nbefore circuit activates"
+		(exclude_from_sim no)
+		(at 214.63 76.708 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3424a17e-2df0-4db3-b969-8babe9efd0c9")
+	)
 	(text "R3 options for maximum\nmeasurable fence voltage:\n12.0kV --> 5k49\n11.8kV --> 5k6 (default)\n9.5kV --> 6k98\n7.6kV --> 8k66\n6.0kV --> 11k"
 		(exclude_from_sim no)
 		(at 98.806 26.67 0)
@@ -3722,17 +3733,6 @@
 			(justify left)
 		)
 		(uuid "78c4be79-6793-445d-b9ce-44769cadc349")
-	)
-	(text "Resistors placed manually\n(not jlcpcb)"
-		(exclude_from_sim no)
-		(at 58.674 36.576 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "94ff7cf2-d16e-4c45-8b65-a31c52df9ec9")
 	)
 	(text "B"
 		(exclude_from_sim no)
@@ -3820,6 +3820,12 @@
 		(uuid "1b32a7e7-4797-4dd1-ba5e-e556601ed69c")
 	)
 	(junction
+		(at 46.99 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2692a500-c5c5-4089-8907-c56f6f067e9f")
+	)
+	(junction
 		(at 196.85 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3832,7 +3838,7 @@
 		(uuid "38587325-efbc-44d4-8a5b-449a6d5de74e")
 	)
 	(junction
-		(at 52.07 25.4)
+		(at 57.15 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c49c6a2-5132-4f5e-ae2b-3a04402ab5fd")
@@ -3908,12 +3914,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3a72749-7334-4c67-9789-3279783f445d")
-	)
-	(junction
-		(at 41.91 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1933ddb-6932-4850-a0d6-d618c4437471")
 	)
 	(junction
 		(at 236.22 123.19)
@@ -4221,7 +4221,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 25.4) (xy 52.07 25.4)
+			(xy 55.88 25.4) (xy 57.15 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4851,16 +4851,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 25.4) (xy 63.5 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8577dda5-d664-45ea-a6e6-b14525c48aa3")
-	)
-	(wire
-		(pts
 			(xy 180.34 27.94) (xy 180.34 40.64)
 		)
 		(stroke
@@ -4921,7 +4911,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 25.4) (xy 41.91 30.48)
+			(xy 46.99 25.4) (xy 46.99 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5021,7 +5011,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 25.4) (xy 41.91 25.4)
+			(xy 40.64 25.4) (xy 46.99 25.4)
 		)
 		(stroke
 			(width 0)
@@ -5071,7 +5061,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 25.4) (xy 53.34 25.4)
+			(xy 57.15 25.4) (xy 63.5 25.4)
 		)
 		(stroke
 			(width 0)
@@ -5161,23 +5151,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 25.4) (xy 52.07 31.75)
+			(xy 57.15 25.4) (xy 57.15 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "acca3526-f0fe-4263-8628-076e4610b5da")
-	)
-	(wire
-		(pts
-			(xy 41.91 25.4) (xy 43.18 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad61b2af-adce-4712-9787-5f51907f4059")
 	)
 	(wire
 		(pts
@@ -5468,6 +5448,16 @@
 			(type default)
 		)
 		(uuid "f5557b2c-57ec-4def-a7e9-b563c6ba5c66")
+	)
+	(wire
+		(pts
+			(xy 46.99 25.4) (xy 48.26 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f77b90ad-3609-4a34-bf81-8dcd80e28de5")
 	)
 	(wire
 		(pts
@@ -5953,7 +5943,7 @@
 	)
 	(global_label "PROBE"
 		(shape input)
-		(at 41.91 30.48 270)
+		(at 46.99 30.48 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5963,7 +5953,7 @@
 		)
 		(uuid "76fbb253-5d43-4b3b-88c2-8066f72b63e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.91 39.7547 90)
+			(at 46.99 39.7547 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6768,7 +6758,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 46.99 25.4 90)
+		(at 52.07 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6776,15 +6766,15 @@
 		(dnp no)
 		(uuid "31c67139-74aa-446e-b2bf-8a174a188681")
 		(property "Reference" "R3"
-			(at 46.99 19.05 90)
+			(at 52.07 19.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "5k6"
-			(at 46.99 21.59 90)
+		(property "Value" "5k1 1%"
+			(at 52.07 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6792,7 +6782,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 46.99 27.178 90)
+			(at 52.07 27.178 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6801,7 +6791,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 25.4 0)
+			(at 52.07 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6810,7 +6800,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 46.99 25.4 0)
+			(at 52.07 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6818,8 +6808,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23189"
-			(at 46.99 27.686 90)
+		(property "LCSC" "C25197"
+			(at 52.07 27.686 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7859,7 +7849,7 @@
 				)
 			)
 		)
-		(property "Value" "10M 10KV"
+		(property "Value" "10M 5% 10KV"
 			(at 36.83 21.59 90)
 			(effects
 				(font
@@ -9118,81 +9108,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 57.15 25.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cfbb3cc6-a88f-4575-b23f-708686e920a2")
-		(property "Reference" "R2"
-			(at 57.15 19.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1M 700V"
-			(at 57.15 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 57.15 27.178 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 57.15 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1365187"
-			(at 57.15 27.686 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "94a207c7-9081-4eb3-8650-26165370c7df")
-		)
-		(pin "1"
-			(uuid "38def328-aaea-423a-a476-811b16787b15")
-		)
-		(instances
-			(project "FenceRangerEvo"
-				(path "/9381eb55-020b-4d27-a5c1-f9ded2453184"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 71.12 74.93 0)
 		(unit 1)
@@ -9350,7 +9265,7 @@
 				)
 			)
 		)
-		(property "Value" "10M 10KV"
+		(property "Value" "10M 5% 10KV"
 			(at 67.31 21.59 90)
 			(effects
 				(font
@@ -10042,7 +9957,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.07 31.75 0)
+		(at 57.15 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10051,7 +9966,7 @@
 		(fields_autoplaced yes)
 		(uuid "f20e33fb-d03d-403a-b41e-7e0b5180e0a8")
 		(property "Reference" "#PWR01"
-			(at 52.07 38.1 0)
+			(at 57.15 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10060,7 +9975,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 36.83 0)
+			(at 57.15 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10068,7 +9983,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 31.75 0)
+			(at 57.15 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10077,7 +9992,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 31.75 0)
+			(at 57.15 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10086,7 +10001,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 31.75 0)
+			(at 57.15 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
