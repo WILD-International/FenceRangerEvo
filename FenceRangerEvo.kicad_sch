@@ -6940,7 +6940,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22373904"
+		(property "LCSC" "C2905422"
 			(at 163.576 155.956 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7890,7 +7890,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22373904"
+		(property "LCSC" "C2905422"
 			(at 178.054 155.956 0)
 			(show_name no)
 			(do_not_autoplace no)
