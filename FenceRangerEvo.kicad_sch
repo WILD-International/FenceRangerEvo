@@ -5,8 +5,8 @@
 	(uuid "9381eb55-020b-4d27-a5c1-f9ded2453184")
 	(paper "A4")
 	(title_block
-		(title "Fence Ranger V3.0")
-		(date "2025-12-27")
+		(title "Fence Ranger V3.1")
+		(date "2026-06-03")
 		(company "WILD International - www.wildinternational.org")
 		(comment 1 "Original work: https://github.com/kiu/lofence")
 	)
@@ -4131,18 +4131,6 @@
 		)
 		(uuid "b5383060-9130-4693-8e02-bca1f1011879")
 	)
-	(text "Version  A    B    C    D\n3.0      DNP  DNP  DNP  DNP\nx.x      1M   DNP  DNP  DNP\nx.x      DNP  1M   DNP  DNP\nx.x      DNP  DNP  1M   DNP\nx.x      DNP  DNP  DNP  1M\nx.x      1M   DNP  1M   DNP\nx.x      1M   DNP  DNP  1M\nx.x      DNP  1M   1M   DNP\nx.x      DNP  1M   DNP  1M"
-		(exclude_from_sim no)
-		(at 250.952 150.368 0)
-		(effects
-			(font
-				(face "Andale Mono")
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "165c74c7-9285-4d76-977f-3bc27f7d7147")
-	)
 	(text "ADC+"
 		(exclude_from_sim no)
 		(at 15.24 16.51 0)
@@ -4209,7 +4197,7 @@
 		)
 		(uuid "6ccf6a93-6deb-41b4-81ca-d6680b6ec1c1")
 	)
-	(text "Encode the version number in hardware.\nThen we can have a single firmware version\nfor all hardware versions."
+	(text "Hardware version bits removed for lack of free pins.\nNow use GPIO6, which has pull-up attached,\nto identify this board version (V3.1)"
 		(exclude_from_sim no)
 		(at 215.9 106.934 0)
 		(effects

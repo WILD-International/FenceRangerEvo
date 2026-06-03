@@ -15699,36 +15699,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(gr_line
-		(start 167.5 93.75)
-		(end 173.5 93.75)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "248a5a98-83da-4ccb-9047-29673c67129d")
-	)
-	(gr_line
-		(start 173.5 86.5)
-		(end 167.5 86.5)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "f59b1ee6-328e-4d43-8fa0-f8349d260e7c")
-	)
-	(gr_line
-		(start 173.5 93.75)
-		(end 173.5 86.5)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "090dff10-c10a-4c72-a4e5-efa888c3238e")
-	)
 	(gr_arc
 		(start 137.5 66)
 		(mid 138.085786 64.585786)
@@ -16046,7 +16016,7 @@
 		(layer "Edge.Cuts")
 		(uuid "52df216e-400e-44e7-a4ab-02a95d968a2d")
 	)
-	(gr_text "2025-12"
+	(gr_text "2026-06"
 		(at 138 110 0)
 		(layer "F.SilkS")
 		(uuid "2463c95d-a6da-4fbd-b049-10febfca711d")
@@ -16062,18 +16032,6 @@
 		(at 155.75 148 0)
 		(layer "F.SilkS")
 		(uuid "8b8b12a6-cb07-416a-b115-1843e1023c86")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "HW ver."
-		(at 167.5 86.25 0)
-		(layer "F.SilkS")
-		(uuid "bcd18760-cda0-4b03-871a-6e49ad984d86")
 		(effects
 			(font
 				(size 1 1)
@@ -16132,7 +16090,7 @@
 			)
 		)
 	)
-	(gr_text "FenceRanger v3.0"
+	(gr_text "FenceRanger v3.1"
 		(at 148 108 0)
 		(layer "F.SilkS")
 		(uuid "13d05858-3496-41c2-8870-60536e4aa591")
