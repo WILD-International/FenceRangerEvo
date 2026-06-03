@@ -4154,16 +4154,6 @@
 		)
 		(uuid "1cf118cc-7968-410a-b1e9-3d4e4bdb2fd7")
 	)
-	(text "A"
-		(exclude_from_sim no)
-		(at 227.076 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "20d1844b-9ffc-4f6f-acea-8a2fbe519e0c")
-	)
 	(text "Heltec ESP32 LoRa (V4)"
 		(exclude_from_sim no)
 		(at 127 96.266 0)
@@ -4263,16 +4253,6 @@
 		)
 		(uuid "7a9dcee2-a9c4-4b36-b486-a35055160f30")
 	)
-	(text "B"
-		(exclude_from_sim no)
-		(at 227.076 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9eaa75e7-497d-4bb7-8ca6-ac74b66b3352")
-	)
 	(text "Probe"
 		(exclude_from_sim no)
 		(at 15.24 168.656 0)
@@ -4295,16 +4275,6 @@
 		)
 		(uuid "d29aeb43-1d19-4683-8f26-14a01d69e1d5")
 	)
-	(text "D"
-		(exclude_from_sim no)
-		(at 238.506 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d4aa54f9-5273-46fa-9231-902e2bac634b")
-	)
 	(text "inverting op-amp\noutput = -input\nprobably to make it work if connected in reverse"
 		(exclude_from_sim no)
 		(at 55.118 72.39 0)
@@ -4315,16 +4285,6 @@
 			(justify left)
 		)
 		(uuid "d571ac4e-21a0-4e09-8321-43e761efe9bc")
-	)
-	(text "C"
-		(exclude_from_sim no)
-		(at 238.506 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e6eb8b74-52ce-4149-88d1-9a146570cc1b")
 	)
 	(text "This goes to BAT\ninput of the Heltec\nmodule.\n\nPLUS on pin 1\nBecause that's heltec's\nconvention"
 		(exclude_from_sim no)
@@ -4486,12 +4446,6 @@
 		(uuid "b3a72749-7334-4c67-9789-3279783f445d")
 	)
 	(junction
-		(at 229.87 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca0b73d6-c40b-41ec-a52e-7434af7ec015")
-	)
-	(junction
 		(at 73.66 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4502,12 +4456,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ceadc219-ff8b-45d5-a991-323d1b898dac")
-	)
-	(junction
-		(at 241.3 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dade1a29-a3f4-4970-8e7b-1cc9ab165ed5")
 	)
 	(junction
 		(at 157.48 146.05)
@@ -4532,12 +4480,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7be43ac-a077-4abd-b649-8a4ea6d3222c")
-	)
-	(junction
-		(at 229.87 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fca19ced-9689-4a60-899d-f37c3b18f30d")
 	)
 	(no_connect
 		(at 204.47 115.57)
@@ -4821,16 +4763,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 127) (xy 229.87 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "138f996c-49fc-4749-911a-c3bdcab34271")
-	)
-	(wire
-		(pts
 			(xy 256.54 25.4) (xy 256.54 58.42)
 		)
 		(stroke
@@ -4901,16 +4833,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 116.84) (xy 229.87 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1df29ab4-d6a1-4171-872b-817ff3f6085b")
-	)
-	(wire
-		(pts
 			(xy 196.85 22.86) (xy 209.55 22.86)
 		)
 		(stroke
@@ -4938,16 +4860,6 @@
 			(type default)
 		)
 		(uuid "2190afd9-da03-489a-baae-59d0578e10ce")
-	)
-	(wire
-		(pts
-			(xy 229.87 127) (xy 229.87 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "228de555-189c-4abe-9d85-86080a9e232a")
 	)
 	(wire
 		(pts
@@ -5008,16 +4920,6 @@
 			(type default)
 		)
 		(uuid "29334641-5cdb-4b2e-b819-d88ad51ba887")
-	)
-	(wire
-		(pts
-			(xy 217.17 116.84) (xy 229.87 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ca34c3e-2dcf-4a57-94e1-fcea8ad9f5b7")
 	)
 	(wire
 		(pts
@@ -5331,26 +5233,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 116.84) (xy 229.87 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a0cf214-6129-4b4f-9087-071cde9af386")
-	)
-	(wire
-		(pts
-			(xy 241.3 127) (xy 241.3 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c4e4645-fd85-4742-bd33-8f2427133fa8")
-	)
-	(wire
-		(pts
 			(xy 138.43 128.27) (xy 158.75 128.27)
 		)
 		(stroke
@@ -5451,16 +5333,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 135.89) (xy 229.87 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f543400-4d00-472f-a7bd-b7e01b60bfd8")
-	)
-	(wire
-		(pts
 			(xy 35.56 179.07) (xy 36.83 179.07)
 		)
 		(stroke
@@ -5481,16 +5353,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 125.73) (xy 241.3 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81618402-fe63-4774-907e-147db0b5237a")
-	)
-	(wire
-		(pts
 			(xy 76.2 185.42) (xy 76.2 179.07)
 		)
 		(stroke
@@ -5508,16 +5370,6 @@
 			(type default)
 		)
 		(uuid "823cd9a2-7b9e-4e77-9084-2c9ff30de5c2")
-	)
-	(wire
-		(pts
-			(xy 241.3 118.11) (xy 241.3 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "833919b8-5aea-4e90-a1fb-3cc84a7b69f9")
 	)
 	(wire
 		(pts
@@ -5548,16 +5400,6 @@
 			(type default)
 		)
 		(uuid "870d4c15-e3b3-4d26-b044-ffc845a7fafe")
-	)
-	(wire
-		(pts
-			(xy 241.3 127) (xy 257.81 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b61ecf4-c298-4171-8f07-49d6060a9a6f")
 	)
 	(wire
 		(pts
@@ -5648,16 +5490,6 @@
 			(type default)
 		)
 		(uuid "91e71a33-9afb-4245-8c9f-b17a91fd1ef9")
-	)
-	(wire
-		(pts
-			(xy 241.3 135.89) (xy 241.3 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94164b16-22fb-4e29-9a64-1d744ed921ac")
 	)
 	(wire
 		(pts
@@ -5858,16 +5690,6 @@
 			(type default)
 		)
 		(uuid "a9917071-5226-4765-a701-2e32713fc643")
-	)
-	(wire
-		(pts
-			(xy 229.87 125.73) (xy 229.87 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa026a4c-355d-4b11-9dd6-3cf5bc6951aa")
 	)
 	(wire
 		(pts
@@ -6319,16 +6141,6 @@
 		)
 		(uuid "fe589210-1637-421f-9a57-f415a22a3997")
 	)
-	(label "VerPin2"
-		(at 257.81 127 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0113a802-ffc6-43ff-a1bf-e3d1af68ae9b")
-	)
 	(label "Reset Button"
 		(at 201.93 133.35 180)
 		(effects
@@ -6348,26 +6160,6 @@
 			(justify left bottom)
 		)
 		(uuid "1069a6e9-f8fb-4cf3-852c-7877a6fe7a04")
-	)
-	(label "VDD_3V3"
-		(at 217.17 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1e756095-bed4-4357-9910-0e8692037957")
-	)
-	(label "VerPin1"
-		(at 217.17 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2025934a-61f1-4c94-b086-fd1884399d69")
 	)
 	(label "GNSS_PPS"
 		(at 140.97 130.81 0)
@@ -6926,84 +6718,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 229.87 138.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0352c049-c6a8-442f-89c6-7833dead8b14")
-		(property "Reference" "#PWR010"
-			(at 229.87 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 229.87 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 229.87 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 229.87 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aeeb4030-b8bf-4c0a-85dd-20039f93898d")
-		)
-		(instances
-			(project "FenceRangerEvo"
-				(path "/9381eb55-020b-4d27-a5c1-f9ded2453184"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND1")
 		(at 276.86 60.96 0)
 		(unit 1)
@@ -7462,84 +7176,6 @@
 			(project "FenceRangerEvo"
 				(path "/9381eb55-020b-4d27-a5c1-f9ded2453184"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 241.3 138.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2709d95a-8277-49cc-bdcb-4b25c3bd4e91")
-		(property "Reference" "#PWR012"
-			(at 241.3 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 241.3 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c1ca2b05-cdfb-4e0a-b1bc-425ec09a4548")
-		)
-		(instances
-			(project "FenceRangerEvo"
-				(path "/9381eb55-020b-4d27-a5c1-f9ded2453184"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -9034,88 +8670,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 229.87 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "614be6b4-9289-4b5e-a9ad-82d0d52558c9")
-		(property "Reference" "R16"
-			(at 232.41 130.8099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1M"
-			(at 232.41 133.3499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 228.092 132.08 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 229.87 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a6462158-542a-450b-a17a-168549621f13")
-		)
-		(pin "2"
-			(uuid "e1020889-a083-4675-8559-e586b780ae09")
-		)
-		(instances
-			(project "FenceRangerEvo"
-				(path "/9381eb55-020b-4d27-a5c1-f9ded2453184"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 120.65 24.13 0)
 		(unit 1)
@@ -9688,88 +9242,6 @@
 			(project "FenceRangerEvo"
 				(path "/9381eb55-020b-4d27-a5c1-f9ded2453184"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 241.3 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "818ccc29-ddc6-45d1-8345-8304fd052de3")
-		(property "Reference" "R17"
-			(at 243.84 120.6499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1M"
-			(at 243.84 123.1899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 239.522 121.92 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 241.3 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "851df86f-de7a-42ef-b79f-6d591dff6a0e")
-		)
-		(pin "2"
-			(uuid "5a661c49-8dc7-43ff-a8f1-67eb737e559c")
-		)
-		(instances
-			(project "FenceRangerEvo"
-				(path "/9381eb55-020b-4d27-a5c1-f9ded2453184"
-					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -11043,88 +10515,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 241.3 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "c292ae72-bb6b-444a-afff-815802c409c7")
-		(property "Reference" "R18"
-			(at 243.84 130.8099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1M"
-			(at 243.84 133.3499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 239.522 132.08 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 241.3 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b83efdff-ef53-4ac0-91ed-c7326d1efd09")
-		)
-		(pin "2"
-			(uuid "4d123edf-cdc9-43ea-9a11-80f2a8e5dc36")
-		)
-		(instances
-			(project "FenceRangerEvo"
-				(path "/9381eb55-020b-4d27-a5c1-f9ded2453184"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 62.23 114.3 0)
 		(unit 1)
@@ -11453,88 +10843,6 @@
 			(project "FenceRangerEvo"
 				(path "/9381eb55-020b-4d27-a5c1-f9ded2453184"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 229.87 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "dbfe32d2-abf0-4c13-bbde-b933d65bde4c")
-		(property "Reference" "R15"
-			(at 232.41 120.6499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1M"
-			(at 232.41 123.1899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 228.092 121.92 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 229.87 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3e63e3d4-af0c-4266-b126-179ef1732451")
-		)
-		(pin "2"
-			(uuid "52fb0d6b-4faa-4264-85f5-fcad8a94bbcd")
-		)
-		(instances
-			(project "FenceRangerEvo"
-				(path "/9381eb55-020b-4d27-a5c1-f9ded2453184"
-					(reference "R15")
 					(unit 1)
 				)
 			)
